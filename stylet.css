@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin:  0;
+    padding: 0;
+}
+
+body{
+    background-color: #272c36;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tabla{
+    width: 240mm;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #343749c2;
+    border: 1.5px rgba(55, 66, 96, 0.615) solid;
+    border-radius: 3px;
+    color: #acbae1;
+
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+.table{
+    font-size: 14px;
+    color: #a7b4d2ef;
+    width: 220mm;
+    position: relative;
+    margin: auto;
+    margin-top: 15px;
+    padding: 30px;
+}
+
+th{
+    font-weight: bold;
+    position: relative;
+    margin: auto;
+    padding: 8px;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.456);
+    background-color:  #6e67fc36;
+    margin-right: 4px;
+
+}
+
+td {
+    padding: 5px;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.456);
+  }
+
+  tr:hover {background-color:  #6e67fc36;}
+
+.form-btn {
+    padding: 12px;
+    background-color: #6e67fcd6;
+    border: 2px #000000 solid;
+    border-radius: 3px;
+    color: rgba(255, 255, 255, 0.929);
+    font-weight: 400;
+    font-size: medium;
+    cursor: pointer;
+    width: 100%;
+    text-decoration: none;
+  }
+
+  .consulta {
+    padding: 12px;
+    background-color: #6e67fcd6;
+    border: 2px #000000 solid;
+    border-radius: 3px;
+    color: rgba(255, 255, 255, 0.929);
+    font-weight: 400;
+    font-size: medium;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+  }
